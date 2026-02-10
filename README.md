@@ -1,5 +1,8 @@
 # OSPF-Network
 Implementation of OSPF network using EVE-NG
 
-# Network Topology
-![image alt](https://github.com/CathalLovesFood/OSPF-Network/blob/0bc000cf230526d1e13c71a14bf7c0661112b3ec/Network%20Topology%20Images/NetworkTopology.png)
+# Network Topology HLD
+![image alt](https://github.com/CathalLovesFood/OSPF-Network/blob/ec9e98c6a24d2a1396b442033ae2f29019d684a0/Network%20Topology%20Images/NetworkTopologyHLD.png)
+
+# Network Topology LLS (WIP)
+![image alt]()
