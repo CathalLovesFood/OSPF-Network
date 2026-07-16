@@ -64,6 +64,7 @@ interface Loopback0
 interface GigabitEthernet0/0
  ip address 172.16.1.2 255.255.255.0
  ip ospf 1 area 20
+ no shutdown
  duplex auto
  speed auto
  media-type rj45
@@ -71,6 +72,7 @@ interface GigabitEthernet0/0
 interface GigabitEthernet0/1
  ip address 192.168.2.1 255.255.255.0
  ip ospf 1 area 20
+ no shutdown
  duplex auto
  speed auto
  media-type rj45
@@ -78,6 +80,7 @@ interface GigabitEthernet0/1
 interface GigabitEthernet0/2
  ip address 172.16.2.1 255.255.255.0
  ip ospf 1 area 30
+ no shutdown
  duplex auto
  speed auto
  media-type rj45
@@ -115,5 +118,8 @@ line vty 0 4
 no scheduler allocate
 !
 end
-
+!
+!
+wr
+!
 
